@@ -1,0 +1,25 @@
+.dga-homeBody-container h1 {
+  padding-top: 30px;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(dga-color-font-secondary);
+}
+
+.dga-homeBody-container h2 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--dga-color-font-tertiary);
+}
+
+.dga-homeBody-btn-primary {
+  padding: 10px 16px;
+  background-color: var(--dga-color-bg-primary);
+  color: var(--dga-color-font-primary);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+}

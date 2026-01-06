@@ -1,0 +1,56 @@
+.dga-search-container {
+  margin-top: 41px;
+  padding: 0 41px;
+}
+
+.dga-search-card {
+  background-color: var(--dga-color-bg-tertiary);
+  border-radius: 12px;
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dga-search-card h2 {
+  color: var(--dga-color-font-quaternary);
+  font-size: 38px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.dga-search-card input {
+  width: 298px;
+  height: 40px;
+  padding: 0 12px;
+
+  border: 1px solid var(--dga-color-bg-quaternary);
+  border-radius: 4px;
+
+  font-size: 14px;
+}
+
+.dga-search-card button {
+  width: 101px;
+  padding: 10px 16px;
+
+  background-color: var(--dga-color-bg-primary);
+  color: var(--dga-color-font-primary);
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.dga-search-card button:hover {
+  opacity: 0.9;
+}
+
+.dga-search-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

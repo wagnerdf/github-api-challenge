@@ -1,0 +1,62 @@
+.dga-github-container {
+  margin-top: 41px;
+  padding: 0 41px;
+}
+
+.dga-github-card {
+  background-color: var(--dga-color-bg-quintennium);
+  border-radius: 8px;
+  padding: 38px;
+
+  display: flex;
+  gap: 25px;
+}
+
+.dga-github-image img {
+  width: 247px;
+  height: 247px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.dga-github-info {
+  flex: 1;
+  background-color: var(--dga-color-bg-secondary);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.dga-github-info h3 {
+  color: var(--dga-color-bg-primary);
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.dga-github-info-item {
+  border: 1px solid var(--dga-color-bg-quaternary);
+  border-radius: 4px;
+
+  padding: 10px 12px;
+  margin-bottom: 5px;
+
+  font-size: 16px;
+  color: var(--dga-color-font-quintennium);
+}
+
+.dga-github-info-item strong {
+  color: var(--dga-color-font-quintennium);
+}
+
+.dga-github-info-item a {
+  color: var(--dga-color-bg-primary);
+  text-decoration: none;
+}
+
+.dga-github-error {
+  margin-top: 54px;
+  margin-left: 41px;
+  margin-right: 41px;
+  font-size: 38px;
+  font-weight: 500;
+}
