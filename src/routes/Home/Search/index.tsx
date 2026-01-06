@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./styles.css";
-import GithubApi from "../../../components/GithubApi";
+import GithubApi from "../../../components/GithubUserCard";
 
 export default function Search() {
   const [inputValue, setInputValue] = useState("");

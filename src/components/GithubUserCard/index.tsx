@@ -1,14 +1,9 @@
 import { useEffect, useState } from "react";
 import "./styles.css";
 import { findGithubUser } from "../../services/github-api-services";
+import type { GithubUser } from "../../models/github";
 
-type GithubUser = {
-  avatar_url: string;
-  html_url: string;
-  followers: number;
-  location: string;
-  name: string;
-};
+
 
 type Props = {
   username: string;
